@@ -31,25 +31,45 @@
             margin: 51px 0px 50px 202px;
             box-shadow: -4px 4px 5px 2px #666666;
         }
-        .button-join-now{
+
+        .button-join-now {
             background-color: aqua;
             color: darkblue;
-            margin-left:200px;
-            padding:15px 40px;
-            border:6px double darkblue;
+            margin-left: 200px;
+            padding: 15px 40px;
+            border: 6px double darkblue;
             font-size: large;
             font-weight: 900;
-            font-family:Arial, Helvetica, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             border-radius: 0 20px 20px 0;
             box-shadow: 1px 3px 8px 1px #333333;
+            cursor: pointer;
         }
-        .button-join-now:hover{
+
+        .button-join-now:hover {
             transition: 1s;
             background-color: rgb(181, 243, 183);
-            border:6px dashed rgb(3, 84, 21);
-            color:rgb(3, 84, 21);
+            border: 6px dashed rgb(3, 84, 21);
+            color: rgb(3, 84, 21);
             box-shadow: 4px 4px 10px 5px #333333;
-            margin-left:203px;
+            margin-left: 203px;
+        }
+
+        .button-send {
+            background-color: #25d366;
+            margin: 100px 10px 20px 200px;
+            padding: 25px;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 1px 3px 10px 1px #111111;
+        }
+
+        .button-send:hover {
+            transition: 0.5s;
+            background-color: #5450;
+            margin: 103px 10px 20px 202px;
+            box-shadow: 3px 4px 8px 3px #111111;
         }
     </style>
 </head>
@@ -74,6 +94,9 @@
     </button>
     <button class="button-join-now">
         JOIN NOW!
+    </button><br />
+    <button class="button-send">
+        <img src="./icons/send.png" class="send-icon" />
     </button>
 </body>
 
