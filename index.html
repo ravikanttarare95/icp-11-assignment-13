@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buttons</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <style>
-        
+        .button-download {
+            background-color: #edc0c0;
+            border: solid #000 2px;
+            margin: 50px 0px 50px 200px;
+            padding: 10px 30px;
+            font-size: large;
+            font-weight: bold;
+            font-family: cursive;
+            border-radius: 10%;
+            box-shadow: -3px 3px 7px 1px #666666;
+            cursor: pointer;
+        }
+
+        .icon-download {
+            vertical-align: middle;
+            height: 50px;
+        }
+
+        .button-download:hover {
+            transition: 0.25s;
+            background-color: #cf9494;
+            margin: 51px 0px 50px 202px;
+            box-shadow: -4px 4px 5px 2px #666666;
+        }
     </style>
 </head>
+
 <body>
-    
+    <h1>BUTTONS</h1>
+    <button class="button-download">
+        DOWNLOAD <img src="./icons/download.png" class="icon-download" />
+    </button>
 </body>
+
 </html>
