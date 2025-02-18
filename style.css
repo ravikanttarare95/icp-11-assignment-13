@@ -1,4 +1,28 @@
-h1{
-color:red;
-background-color:beige;
+h1 {
+  color: red;
+  background-color: beige;
+}
+
+.nav-buttons {
+  background-color: #f0c086;
+  color: #9a0a00;
+  font-size: large;
+  font-weight: bold;
+  border: #9a0a00 2px dotted;
+  margin-left: 100px;
+  padding: 3px 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 6px 2px #555555;
+  cursor: pointer;
+}
+.nav-buttons-icon {
+  vertical-align: middle;
+  height: 30px;
+}
+
+.nav-buttons:hover {
+  transition: 0.25s;
+  border: #9a0a00 3px dashed;
+  margin-left: 98px;
+  box-shadow: 2px 3px 8px 3px #555555;
 }
