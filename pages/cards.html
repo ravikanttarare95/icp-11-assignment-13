@@ -11,9 +11,11 @@
             background-color: #FFF2F2;
             width: 300px;
             margin: 50px;
-            border: 3px solid #2D336B;
+            border: 1px solid #2D336B;
             border-radius: 10px;
             padding: 15px;
+            box-shadow: 1px 1px 15px 2px #7886C7;
+            display: inline-block;
         }
 
         .vivo-image {
@@ -40,7 +42,7 @@
 
         }
 
-        .price-actual {
+        .price-actual-vivo {
             color: #2D336B;
             font-size: 24px;
             font-weight: bold;
@@ -54,7 +56,7 @@
             color: #25d366;
         }
 
-        .button-buy-now {
+        .button-buy-now-vivo {
             background-color: #2D336B;
             color: #fff;
             font-size: 18px;
@@ -66,6 +68,47 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
+        }
+
+        .card-laptop {
+            color: #6D2323;
+            width: 400px;
+            margin: 50px;
+            padding: 25px;
+            border-radius: 30px 30px 30px 30px;
+            box-shadow: 4px 4px 20px 1px #666666;
+            display: inline-block;
+        }
+
+        .laptop-image {
+            width: 100%;
+            border-radius: 30px;
+        }
+
+        .laptop-heading {
+            color: #C30E59;
+            font-size: x-large;
+        }
+
+        .price-actual-laptop {
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .button-buy-now-laptop {
+            background-color: #F2AE66;
+            padding: 5px 20px;
+            border-radius: 20px;
+            border: none;
+            color: #6D2323;
+            margin-top: 30px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: bold;
+            font-size: large;
+            font-family: cursive;
+            box-shadow: 1px 1px 1px 2px #666666;
         }
     </style>
 </head>
@@ -103,10 +146,22 @@
         6 Gen 1 Processor. &nbsp;
         <br />
         <br />
-        <span class="price-actual">₹12,499</span> <del class="rating-price-old"> ₹17,499</del> &nbsp
+        <span class="price-actual-vivo">₹12,499</span> <del class="rating-price-old"> ₹17,499</del> &nbsp
         <span class="price-off">28% off</span>
         <br />
-        <button class="button-buy-now">Buy Now</button>
+        <button class="button-buy-now-vivo">Buy Now</button>
+    </div>
+    <div class="card-laptop">
+        <img src="./../images/laptop.png" class="laptop-image" />
+        <h2 class="laptop-heading"> Acer Aspire 3 Laptop AMD Ryzen 7 Octa Core 7730U</h2>
+        <span style="color:#BE3144">Special price</span> <br />
+        <del>₹79,990</del>
+        <span class="price-actual-laptop">₹47,990</span>
+        <br /><br />
+        (16 GB/1 TB SSD/Windows 11 Home) A325-42 Thin and Light Laptop (15.6 Inch, Silver, 1.79 Kg)<br />
+        <button class="button-buy-now-laptop">
+            Buy Now !
+        </button>
     </div>
 
 </body>
