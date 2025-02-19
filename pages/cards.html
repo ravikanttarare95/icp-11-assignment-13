@@ -7,7 +7,66 @@
     <title>Cards</title>
     <link rel="stylesheet" href="./../style.css" />
     <style>
+        .card-vivo {
+            background-color: #FFF2F2;
+            width: 300px;
+            margin: 50px;
+            border: 3px solid #2D336B;
+            border-radius: 10px;
+            padding: 15px;
+        }
 
+        .vivo-image {
+            width: 100%;
+        }
+
+        .vivo-heading {
+            color: #2D336B;
+        }
+
+        .button-rating {
+            background-color: #26a541;
+            color: #ffffff;
+            font-size: 17px;
+            border: none;
+            padding: 3px 5px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .rating-star-icon {
+            height: 20px;
+            vertical-align: middle;
+
+        }
+
+        .price-actual {
+            color: #2D336B;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .rating-price-old {
+            color: #7886C7;
+        }
+
+        .price-off {
+            color: #25d366;
+        }
+
+        .button-buy-now {
+            background-color: #2D336B;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 25px;
+            padding: 5px 25px;
+            border: none;
+            border-radius: 8px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
     </style>
 </head>
 
@@ -26,6 +85,30 @@
     </a>
     <hr />
     <h1>CARDS</h1>
+    <div class="card-vivo">
+        <img src="./../images/vivo-t-3-x.png" alt="Mobile Image" class="vivo-image" />
+        <h2 class="vivo-heading">VIVO T3x 5G (Sapphire Blue, 128 GB) (4 GB RAM)</h2>
+
+        <button class="button-rating">
+            4.4
+            <img src="./../icons/rating-star.png" class="rating-star-icon" />
+        </button>
+        <span class="rating-price-old">50,055 Ratings & 1,990 Reviews</span>
+        <br />
+        <br />
+        4 GB RAM | 128 GB ROM | Expandable Upto 1 TB.&nbsp;
+        17.07 cm (6.72 inch) Full HD+ Display.&nbsp;
+        50MP + 2MP | 8MP Front Camera
+        6000 mAh Battery. &nbsp;
+        6 Gen 1 Processor. &nbsp;
+        <br />
+        <br />
+        <span class="price-actual">₹12,499</span> <del class="rating-price-old"> ₹17,499</del> &nbsp
+        <span class="price-off">28% off</span>
+        <br />
+        <button class="button-buy-now">Buy Now</button>
+    </div>
+
 </body>
 
 </html>
