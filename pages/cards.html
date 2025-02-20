@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./../style.css" />
     <style>
         .card-vivo {
-            background-color: #FFF2F2;
+            background-color: lightcyan;
             width: 300px;
             margin: 50px;
             border: 1px solid #2D336B;
@@ -152,6 +152,48 @@
             font-weight: bold;
             box-shadow: -1px 1px 5px 0 #000;
         }
+
+        .card-chairs-box {
+            margin: 50px;
+            background-color: #ffe6e6;
+            border: 0px solid #4d0000;
+            width: 800px;
+            box-shadow: -1px -1px 10px 1px #666666;
+
+            .card-chairs-image {
+                height: 300px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .card-chairs-content {
+                vertical-align: middle;
+                padding: 0 30px;
+                color: #4d0000;
+                display: inline-block;
+
+                .chairs-heading {
+                    color: #330000;
+                    font-size: 25px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+            }
+        }
+
+        .button-chairs {
+            margin-top: 20px;
+            padding: 5px 15px;
+            cursor: pointer;
+            border: 1px #330000 solid;
+            box-shadow: -1px 1px 2px 1px #666666;
+        }
+
+        .button-chairs:hover {
+            transition: 0.25s;
+            background-color: #330000;
+            color: #fff;
+        }
     </style>
 </head>
 
@@ -171,7 +213,7 @@
     <hr />
     <h1>CARDS</h1>
     <div class="card-vivo">
-        <img src="./../images/vivo-t-3-x.png" alt="Mobile Image" class="card-main-image" />
+        <img src="./../images/vivo-t-3-x.png" alt="Mobile Image" class="card-main-image-v" />
         <h2 class="vivo-heading">VIVO T3x 5G (Sapphire Blue, 128 GB) (4 GB RAM)</h2>
 
         <button class="button-rating">
@@ -192,7 +234,7 @@
         <button class="button-buy-now-vivo">Buy Now</button>
     </div>
     <div class="card-laptop">
-        <img src="./../images/laptop.png" class="card-main-image" />
+        <img src="./../images/laptop.png" class="card-main-image-v" />
         <h2 class="laptop-heading"> Acer Aspire 3 Laptop AMD Ryzen 7 Octa Core 7730U </h2>
         <span style="color:#BE3144"> Special price </span> <br />
         <del> ₹79,990 </del>
@@ -202,12 +244,32 @@
         <button class="button-buy-now-laptop"> Buy Now ! </button>
     </div>
     <div class="card-biryani">
-        <img src="./../images/biryani-image.jpg" class="card-main-image" />
+        <img src="./../images/biryani-image.jpg" class="card-main-image-v" />
         <span class="biryani-heading"> Chicken Biryani </span>
         <p class="price-biryani"> ₹300 </p>
         <button class="button-add-biryani"> ADD </button>
         <p>A fragrant and flavorful rice dish layered with tender chicken, bursting with rich and aromatic flavors.</p>
     </div>
+    <div class="card-chairs-box">
+        <div class="card-chairs-image">
+            <img src="./../images/chairs.png" class="card-main-image-h" />
+
+        </div>
+        <div class="card-chairs-content">
+
+            <h2 class="chairs-heading">Set of 4 Danish Vintage Wooden<br /> Spindleback Chairs</h2>
+            (30% off)<br />
+            <del>₹48,799</del>
+
+            <span class="chairs-heading">₹34,159</span><br /><br />
+            free delivery<br /><br />
+            Made by Lunailas<br />
+            <button class="button-chairs">Add to cart</button>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <button class="button-chairs">Buy Now</button>
+        </div>
+    </div>
+
 </body>
 
 </html>

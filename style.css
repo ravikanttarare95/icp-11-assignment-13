@@ -26,6 +26,9 @@ h1 {
   margin-left: 98px;
   box-shadow: 2px 3px 8px 3px #555555;
 }
-.card-main-image {
+.card-main-image-v {
   width: 100%;
+}
+.card-main-image-h {
+  height: 100%;
 }
