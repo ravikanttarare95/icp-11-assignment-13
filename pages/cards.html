@@ -18,10 +18,6 @@
             display: inline-block;
         }
 
-        .vivo-image {
-            width: 100%;
-        }
-
         .vivo-heading {
             color: #2D336B;
         }
@@ -68,21 +64,17 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
+            cursor: pointer;
         }
 
         .card-laptop {
             color: #6D2323;
-            width: 400px;
+            width: 300px;
             margin: 50px;
             padding: 25px;
             border-radius: 30px 30px 30px 30px;
             box-shadow: 4px 4px 20px 1px #666666;
             display: inline-block;
-        }
-
-        .laptop-image {
-            width: 100%;
-            border-radius: 30px;
         }
 
         .laptop-heading {
@@ -109,6 +101,56 @@
             font-size: large;
             font-family: cursive;
             box-shadow: 1px 1px 1px 2px #666666;
+            cursor: pointer;
+        }
+
+        .card-biryani {
+            background-color: #ECEBDE;
+            color: #000000;
+            width: 300px;
+            margin: 50px;
+            padding: 20px;
+            border-radius: 15%;
+            display: inline-block;
+            box-shadow: -5px 3px 10px 2px #666666;
+            text-align: center;
+        }
+
+        .card-biryani:hover {
+            transition: 0.25s;
+            background-color: hsl(38, 98%, 82%);
+            box-shadow: -2px 1px 5px 3px #666666;
+        }
+
+        .biryani-heading {
+            font-weight: bold;
+            font-size: 30px;
+            color: #000000;
+        }
+
+        .price-biryani {
+            text-align: left;
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .button-add-biryani {
+            background-color: #000000;
+            color: #ffffff;
+            border: none;
+            font-size: medium;
+            cursor: pointer;
+            padding: 5px 25px;
+            border-radius: 15%;
+        }
+
+        .button-add-biryani:hover {
+            transition: 0.4s;
+            background-color: #fff;
+            color: #000;
+            border-radius: 15%;
+            font-weight: bold;
+            box-shadow: -1px 1px 5px 0 #000;
         }
     </style>
 </head>
@@ -129,7 +171,7 @@
     <hr />
     <h1>CARDS</h1>
     <div class="card-vivo">
-        <img src="./../images/vivo-t-3-x.png" alt="Mobile Image" class="vivo-image" />
+        <img src="./../images/vivo-t-3-x.png" alt="Mobile Image" class="card-main-image" />
         <h2 class="vivo-heading">VIVO T3x 5G (Sapphire Blue, 128 GB) (4 GB RAM)</h2>
 
         <button class="button-rating">
@@ -137,33 +179,35 @@
             <img src="./../icons/rating-star.png" class="rating-star-icon" />
         </button>
         <span class="rating-price-old">50,055 Ratings & 1,990 Reviews</span>
-        <br />
-        <br />
+        <br /> <br />
         4 GB RAM | 128 GB ROM | Expandable Upto 1 TB.&nbsp;
         17.07 cm (6.72 inch) Full HD+ Display.&nbsp;
         50MP + 2MP | 8MP Front Camera
         6000 mAh Battery. &nbsp;
         6 Gen 1 Processor. &nbsp;
-        <br />
-        <br />
+        <br /><br />
         <span class="price-actual-vivo">₹12,499</span> <del class="rating-price-old"> ₹17,499</del> &nbsp
         <span class="price-off">28% off</span>
         <br />
         <button class="button-buy-now-vivo">Buy Now</button>
     </div>
     <div class="card-laptop">
-        <img src="./../images/laptop.png" class="laptop-image" />
-        <h2 class="laptop-heading"> Acer Aspire 3 Laptop AMD Ryzen 7 Octa Core 7730U</h2>
-        <span style="color:#BE3144">Special price</span> <br />
-        <del>₹79,990</del>
+        <img src="./../images/laptop.png" class="card-main-image" />
+        <h2 class="laptop-heading"> Acer Aspire 3 Laptop AMD Ryzen 7 Octa Core 7730U </h2>
+        <span style="color:#BE3144"> Special price </span> <br />
+        <del> ₹79,990 </del>
         <span class="price-actual-laptop">₹47,990</span>
         <br /><br />
-        (16 GB/1 TB SSD/Windows 11 Home) A325-42 Thin and Light Laptop (15.6 Inch, Silver, 1.79 Kg)<br />
-        <button class="button-buy-now-laptop">
-            Buy Now !
-        </button>
+        (16 GB/1 TB SSD/Windows 11 Home) A325-42 Thin and Light Laptop (15.6 Inch, Silver, 1.79 Kg) <br />
+        <button class="button-buy-now-laptop"> Buy Now ! </button>
     </div>
-
+    <div class="card-biryani">
+        <img src="./../images/biryani-image.jpg" class="card-main-image" />
+        <span class="biryani-heading"> Chicken Biryani </span>
+        <p class="price-biryani"> ₹300 </p>
+        <button class="button-add-biryani"> ADD </button>
+        <p>A fragrant and flavorful rice dish layered with tender chicken, bursting with rich and aromatic flavors.</p>
+    </div>
 </body>
 
 </html>
