@@ -194,6 +194,48 @@
             background-color: #330000;
             color: #fff;
         }
+
+        .card-birthday-box {
+            background-color: #e0e0eb;
+            width: 710px;
+            margin: 50px;
+            border: 1px solid #1f1f2e;
+            box-shadow: 0 3px 10px 1px #666666;
+            border-radius: 20px;
+        }
+
+        .card-birthday-box:hover {
+            transition: 0.25s;
+            background-color: #fae8f7;
+        }
+
+        .card-birthday-image {
+            width: 200px;
+            display: inline-block;
+            vertical-align: middle;
+
+            .card-main-image-b {
+                width: 100%;
+                border-radius: 50%;
+            }
+
+        }
+
+        .card-birthday-content {
+            padding: 0 20px;
+            display: inline-block;
+            vertical-align: middle;
+            color: #3d3d5c;
+            font-family: cursive;
+
+            #birthday-venue {
+                font-size: 10px;
+            }
+        }
+
+        .birthday-heading {
+            color: #1f1f2e;
+        }
     </style>
 </head>
 
@@ -222,17 +264,15 @@
         </button>
         <span class="rating-price-old">50,055 Ratings & 1,990 Reviews</span>
         <br /> <br />
-        4 GB RAM | 128 GB ROM | Expandable Upto 1 TB.&nbsp;
-        17.07 cm (6.72 inch) Full HD+ Display.&nbsp;
-        50MP + 2MP | 8MP Front Camera
-        6000 mAh Battery. &nbsp;
-        6 Gen 1 Processor. &nbsp;
+        4 GB RAM | 128 GB ROM | Expandable Upto 1 TB.&nbsp;17.07 cm (6.72 inch) Full HD+ Display.&nbsp;50MP + 2MP | 8MP
+        Front Camera 6000 mAh Battery. &nbsp;6 Gen 1 Processor. &nbsp;
         <br /><br />
         <span class="price-actual-vivo">₹12,499</span> <del class="rating-price-old"> ₹17,499</del> &nbsp
         <span class="price-off">28% off</span>
         <br />
         <button class="button-buy-now-vivo">Buy Now</button>
     </div>
+
     <div class="card-laptop">
         <img src="./../images/laptop.png" class="card-main-image-v" />
         <h2 class="laptop-heading"> Acer Aspire 3 Laptop AMD Ryzen 7 Octa Core 7730U </h2>
@@ -243,6 +283,7 @@
         (16 GB/1 TB SSD/Windows 11 Home) A325-42 Thin and Light Laptop (15.6 Inch, Silver, 1.79 Kg) <br />
         <button class="button-buy-now-laptop"> Buy Now ! </button>
     </div>
+
     <div class="card-biryani">
         <img src="./../images/biryani-image.jpg" class="card-main-image-v" />
         <span class="biryani-heading"> Chicken Biryani </span>
@@ -250,17 +291,15 @@
         <button class="button-add-biryani"> ADD </button>
         <p>A fragrant and flavorful rice dish layered with tender chicken, bursting with rich and aromatic flavors.</p>
     </div>
+
     <div class="card-chairs-box">
         <div class="card-chairs-image">
             <img src="./../images/chairs.png" class="card-main-image-h" />
-
         </div>
         <div class="card-chairs-content">
-
             <h2 class="chairs-heading">Set of 4 Danish Vintage Wooden<br /> Spindleback Chairs</h2>
             (30% off)<br />
             <del>₹48,799</del>
-
             <span class="chairs-heading">₹34,159</span><br /><br />
             free delivery<br /><br />
             Made by Lunailas<br />
@@ -270,6 +309,21 @@
         </div>
     </div>
 
+    <div class="card-birthday-box">
+        <div class="card-birthday-image">
+            <img src="./../images/my-photo.png" class="card-main-image-b" />
+        </div>
+        <div class="card-birthday-content">
+            You are invited
+            <br />
+            <h2 class="birthday-heading"> Ravikant's <br /> BIRTHDAY PARTY</h2><br />
+            Sunday 7:30 pm<br />31 August, 2025<br />
+            <p id="birthday-venue">Venue: Mandhal, Lakhandur, Bhandara - 441803.</p>
+        </div>
+        <div class="card-birthday-image">
+            <img src="./../icons/cake.png" class="card-main-image-b" />
+        </div>
+    </div>
 </body>
 
 </html>
